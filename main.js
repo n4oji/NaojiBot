@@ -1,5 +1,5 @@
 const Discord = require('discord.js');
-const token = "ODE3ODgyMDU3NjE5MTQ0NzI1.YEP-Bg.gg8Yf4zAhxWId73_kRtm_TL3m2A";
+const token = config.token;
 const client = new Discord.Client({ intents: ["GUILDS", "GUILD_MESSAGES"] });
 const prefix = '?';
 
