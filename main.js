@@ -1,3 +1,4 @@
+const config = require('./config.json');
 const Discord = require('discord.js');
 const token = config.token;
 const client = new Discord.Client({ intents: ["GUILDS", "GUILD_MESSAGES"] });
