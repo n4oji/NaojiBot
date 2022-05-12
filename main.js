@@ -31,6 +31,8 @@ client.on('message', message =>{
         client.commands.get('roll').execute(message, args);
     } else if(command === 'clear'){
         client.commands.get('clear').execute(message, args);
+    } else if(command === 'icon'){
+        client.commands.get('icon').execute(message, args);
     }
 }
 );
