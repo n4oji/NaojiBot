@@ -29,6 +29,8 @@ client.on('message', message =>{
         client.commands.get('ping').execute(message, args);
     } else if(command === 'roll' || command === 'r'){
         client.commands.get('roll').execute(message, args);
+    } else if(command === 'clear'){
+        client.commands.get('clear').execute(message, args);
     }
 }
 );
